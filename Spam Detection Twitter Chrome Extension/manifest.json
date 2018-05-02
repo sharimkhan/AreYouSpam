@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spam Detector",
+  "version": "0.1.0",
+  "description": "Spam Detector 3000",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://twitter.com/*"]
+  }]
+    
+}
